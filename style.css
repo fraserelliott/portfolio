@@ -1,0 +1,43 @@
+* {
+    font-family: Helvetica, Arial;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+header {
+    background-color: #333446;
+    color: #EAEFEF;
+}
+
+body {
+    background-color: #7f8caa;
+    color: #333446;
+}
+
+a {
+    color: #333446;
+}
+
+.project {
+    background-color: #B8CFCE;
+    display:inline-block;
+    width: 400px;
+}
+
+.projecttitle {
+    font-size: 20px;
+    
+}
+
+.keywords {
+    font-style: bold;
+}
