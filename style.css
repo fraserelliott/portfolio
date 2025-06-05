@@ -24,6 +24,8 @@ a {
     background-color: #B8CFCE;
     display:inline-block;
     width: 400px;
+    margin: 15px;
+    padding: 10px;
 }
 
 .projecttitle {
