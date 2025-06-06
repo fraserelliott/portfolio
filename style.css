@@ -7,7 +7,6 @@
 header {
     background-color: #333446;
     color: #EAEFEF;
-    height: 120px;
     padding: 10px;
 }
 
@@ -36,13 +35,6 @@ a {
     font-weight: bold;
 }
 
-#headertext {
-    float: left;
-    vertical-align: center;
-    line-height: 120px;
-    margin: auto;
-}
-
 #about {
     padding: 10px;
 }
@@ -52,7 +44,9 @@ a {
 }
 
 #myimage {
-    float: right;
-    margin: auto;
     width: 100px;
+}
+
+footer {
+    font-weight: bold;
 }
