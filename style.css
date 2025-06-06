@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: #333446;
+    background-color: #444557;
     color: #EAEFEF;
     padding: 10px;
 }
@@ -17,6 +17,10 @@ body {
 
 a {
     color: #333446;
+}
+
+ul {
+    list-style-type: bullets;
 }
 
 .project {
@@ -44,9 +48,23 @@ a {
 }
 
 #myimage {
-    width: 100px;
+    width: 20%;
 }
 
 footer {
     font-weight: bold;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #333446;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #EAEFEF;
+    padding: 10px;
 }
