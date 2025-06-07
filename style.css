@@ -23,20 +23,21 @@ ul {
     padding-left: 20px;
 }
 
+section {
+    scroll-margin-top: 3vh;
+}
+
 .project {
     background-color: #B8CFCE;
     margin: 15px;
     padding: 10px;
     width: 300px;
-    float: left;
-}
-
-section {
-    scroll-margin-top: 3vh;
+    display: inline-block;
+    vertical-align: middle;
+    height: 640px;
 }
 
 .project img {
-    object-fit: fill;
     width: 300px;
 }
 
@@ -49,7 +50,7 @@ section {
     font-weight: bold;
 }
 
-#about {
+#aboutcontent {
     padding: 10px;
     margin: 10px;
     background-color: #B8CFCE;
@@ -104,4 +105,17 @@ nav a {
     font-size: 24px;
     color: #EAEFEF;
     padding: 10px;
+}
+
+nav a:hover {
+    background-color: #EAEFEF;
+    color: #333446;
+}
+
+button {
+    font-family: Georgia;
+}
+
+button:hover {
+    font-weight: bold;
 }
