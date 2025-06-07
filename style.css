@@ -20,7 +20,7 @@ a {
 }
 
 ul {
-    list-style-type: bullets;
+    padding-left: 20px;
 }
 
 .project {
@@ -29,6 +29,10 @@ ul {
     padding: 10px;
     width: 300px;
     float: left;
+}
+
+section {
+    scroll-margin-top: 3vh;
 }
 
 .project img {
@@ -47,14 +51,39 @@ ul {
 
 #about {
     padding: 10px;
+    margin: 10px;
+    background-color: #B8CFCE;
 }
 
-#projects {
-    padding: 20px;
+.sectionheader {
+    padding: 10px;
+    clear: both;
 }
 
-#contact {
-    clear:both;
+.contactbox {
+    background-color: #B8CFCE;
+    display: inline-block;
+    padding: 10px;
+    margin: 15px;
+    width: 240px;
+    height: 240px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+form label {
+    display: block;
+}
+
+form input {
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+form textarea {
+    width: 200px;
+    height: 100px;
 }
 
 footer {

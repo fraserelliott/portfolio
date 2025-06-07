@@ -12,14 +12,14 @@
     </header>
 
     <nav>
-        <a href="#about">About me</a>
+        <a href="#about">About Me</a>
         <a href="#projects">My Projects</a>
-        <a href="#contact">Contact me</a>
+        <a href="#contact">Contact Me</a>
     </nav>
     
     <section id="about">
         <div id="aboutmetext">
-            <h2>About me</h2><br>
+            <h2>About Me</h2><br>
             <img class="aboutsection" width="100" src="./assets/fraser.jpg" alt="Fraser">
             <p>
             Welcome to my portfolio! I am a hobbyist developer with experience mostly in C# building desktop appplications and games. I am currently doing a level 4 qualification in full stack development. This website was built as part of the course. My academic background is in mathematics and statistics and I'm looking to apply my problem solving skills in a career in development.<br><br>
@@ -34,16 +34,13 @@
                 <li>Java (including the Java Android SDK)</li>
                 <li>WPF</li>
             </ul>
-            <br>
         </div>
     </section>
-
-    
 
     <br>
 
     <section id="projects">
-        <h2>Programming Projects</h2><br>
+        <h2 class="sectionheader">Programming Projects</h2><br>
 
         <div class="project">
             <h2 class="projecttitle"><a target="_blank" href="https://github.com/fraserelliott/Card-Overview">Card-Overview</a></h2>
@@ -71,7 +68,26 @@
     </section>
 
     <section id="contact">
+        <h2 class="sectionheader">Contact Me</h2>
+        <form class="contactbox">
+            <label for="name">Name: </label>
+            <input type="text" id="name" required>
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" required>
+            <br>
+            <label for="message">Message: </label>
+            <textarea id="message" required></textarea>
+            <br>
+            <button>Submit</button>
+        </form>
 
+        <div class="contactbox">
+            <h3>You can contact me at:<br></h3>
+            <a href="mailto:notmyrealemail@gmail.com" target="_blank">notmyrealemail@gmail.com</a><br>
+            <a href="tel:0123456789" target="_blank">0123456789</a>
+        </div>
+        
     </section>
 
     <footer>
